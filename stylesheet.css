@@ -1,0 +1,71 @@
+body{
+    font-family:"Zilla Slab";
+    background-color: white; 
+    text-align: center;
+}
+hgroup>h1{
+    background-color: blanchedalmond;
+    padding: 8px;
+    font-family: "Fascinate Inline";
+    color: white;
+    text-shadow: 2px 2px 1px darkorange;
+}
+
+body > header {
+    display: flex;
+
+    height: 15vh;
+    justify-content: space-around;
+    background-color: rgba(255, 226, 151, 0.915);
+}
+
+hgroup>h2{
+    padding: 8px;
+    text-shadow: 2px 2px 5px rgb(226, 100, 42);
+    color: rgb(238, 231, 221);
+}
+
+h2 {
+    font-family: "Fascinate Inline";
+    color: rgb(244, 238, 223);
+    text-shadow: 2px 2px 5px rgb(255, 102, 0);
+}
+
+header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+body>main>article {
+
+    width: 70%;
+    margin: auto;
+}
+
+main > article > ul {
+    list-style: none;
+    background-color: blanchedalmond;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+    
+}
+
+body > main > aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+body > main > aside > section > nav > ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+body > footer > div > section > nav > ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
